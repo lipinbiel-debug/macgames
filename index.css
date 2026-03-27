@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+img{
+    width: 150px;
+    height
+    : 150px;
+    border-radius: 50%;
+    border: 5px solid orangered;
+}
+
+.logo{
+    text-align: center;
+
+}
+.margem{
+    padding-left: 16px;
+}
+h1{
+    color: orangered;
+}
+main h3{
+    padding-top: 15px;
+    padding-left: 0px;
+}
+h2{
+    font-size: xx-large;
+}
+.black{
+    color: black;
+}
+.download{
+    background-color: orangered;
+    border-radius: 15%;
+    width: 200px;
+    height: 70px;
+}
+.download a{
+    font-size: xx-large;
+}
+.baixo{
+    text-align: center;
+    display: inline-block;
+    list-style-type: circle;
+    padding: 16px;
+}
+.baixo li button{
+    
+    background-color: orangered;
+    border-radius: 15%;
+    width: 100px;
+    height: 50px;
+}
+.baixo li button a i{
+    color: black;
+    font-size: large;
+}
+.center{
+    text-align: center;
+}
+.animate:active{
+    transform: scale(0.9);
+} 
+button:active{
+    background-color: rgb(255, 153, 0);
+}
+.animation:hover{
+    color: orangered;
+}
+
+li{
+    font-size: large;
+}
